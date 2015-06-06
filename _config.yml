@@ -27,7 +27,7 @@ baseurl: ""
 # social icons and sharing options
 social:
   - icon:	twitter
-    url:	https://twitter.com/mdorrance
+    url:	https://twitter.com/dorrancemike
     desc: Follow me on twitter
     share_url: http://twitter.com/share
     share_title: ?text=
