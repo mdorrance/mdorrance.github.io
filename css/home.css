@@ -36,7 +36,7 @@ p {
   margin-right: 1em;
 }
 html {
-background: url(/assets/images/mac_on_table.jpg) no-repeat center right fixed; 
+background: url(/assets/images/mac_on_table_web_2000.jpg) no-repeat center right fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -51,6 +51,8 @@ nav {
 footer {
   clear: both;
   vertical-align: bottom;
+  position: absolute;
+  bottom: 0px;
 }
 nav ul {
   margin: 1em;
@@ -77,13 +79,17 @@ nav li a:hover {
 
 
 @media (max-width: 480px) {
+  nav {
+    text-align: center;
+    float: none;
+  }
   nav ul {
   margin: 1em;
   padding: 0;
   }
   nav li {
     display: inline;
-    margin-right: 5%;
+    margin-right: 3%;
   }
   .hero {
     clear: both;
