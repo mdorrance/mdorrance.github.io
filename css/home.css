@@ -1,0 +1,137 @@
+@import url(http://fonts.googleapis.com/css?family=Noto+Serif|Roboto:900,500,700);
+
+h1 {
+  font-family: 'Noto', serif;
+  font-size: 2.5em;
+  color: #fff;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-weight: 700;
+}
+h2, p {
+  font-family: 'Roboto', sans-serif;
+  color: #fff;
+}
+h2 {
+  font-size: 2em;
+  margin: 0;
+  font-weight: 400;
+}
+p {
+  font-size: 1em;
+}
+
+.hero {
+  clear: both;
+  float: right;
+  padding: 220px 0px;
+  max-width: 50%;
+}
+.tagline {
+  display: inline-block;
+}
+.hero img {
+  width: 17%;
+  display: inline-block;
+  margin-right: 1em;
+}
+html {
+background: url(/assets/images/mac_on_table.jpg) no-repeat center right fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+nav {
+  color: #ffffff;
+  height: 2em;
+  font-family: 'Roboto', sans-serif;
+  float: right;
+}
+footer {
+  clear: both;
+  vertical-align: bottom;
+}
+nav ul {
+  margin: 1em;
+  padding: 5px 0px 5px 30px;
+}
+nav li {
+  display: inline;
+  margin-right: 40px;
+}
+nav li a {
+  color: #ffffff;
+  text-decoration: none;
+}
+nav li a:hover {
+  text-decoration: underline;
+}
+.wrapper {
+  width: 90%;
+  margin: 0 auto;
+}
+.clearfix {
+    overflow: auto;
+}
+
+
+@media (max-width: 480px) {
+  nav ul {
+  margin: 1em;
+  padding: 0;
+  }
+  nav li {
+    display: inline;
+    margin-right: 5%;
+  }
+  .hero {
+    clear: both;
+    padding: 30% 0;
+    max-width: 100%;
+  }
+  .tagline {
+    display: block;
+    text-align: center;
+  }
+  .hero img {
+    width: 40%;
+    display: block;
+    margin: 5% auto;
+  }
+}
+
+
+@media (min-width: 481px) and (max-width: 780px) { 
+  .hero {
+    clear: both;
+    float: right;
+    padding: 220px 0px;
+    max-width: 75%;
+  }
+  .tagline {
+    display: inline-block;
+  }
+  .hero img {
+    width: 17%;
+    display: inline-block;
+    margin-right: 1em;
+  }
+}
+
+@media (min-width: 781px) and (max-width: 980px){ 
+  .hero {
+    clear: both;
+    float: right;
+    padding: 220px 0px;
+    max-width: 60%;
+  }
+  .tagline {
+    display: inline-block;
+  }
+  .hero img {
+    width: 17%;
+    display: inline-block;
+    margin-right: 1em;
+  }
+}

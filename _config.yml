@@ -3,7 +3,7 @@ markdown: redcarpet
 highlighter: pygments
 gems:
   - jemoji
-  
+
 # Site settings
 title: "Michael Dorrance"
 description: > # this means to ignore newlines until "email:"
@@ -11,13 +11,13 @@ description: > # this means to ignore newlines until "email:"
 
 email: mike@neuvocreate.com
 #blog logo
-logo: "/assets/images/df_logo.jpg"
+logo: "/assets/images/hammer_black_300.jpg"
 # blog cover
-cover: "/assets/images/cA4aKEIPQrerBnp1yGHv_IMG_9534-3-2.jpg"
+cover: "/assets/images/mac_on_table.jpg"
 
 name: 'Michael Dorrance'
 author: 'Michael Dorrance'
-author_image: "/assets/images/author.jpg"
+author_image: "/assets/images/michael_dorrance_bw_web.jpg"
 
 paginate:	5
 
