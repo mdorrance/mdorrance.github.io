@@ -1,12 +1,12 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
-date:   2014-08-29 14:34:25
-categories: jekyll update
+title:  "The Power of Community"
+date:   2015-07-17 1
+categories: community
 tags: featured
 image: /assets/article_images/2014-08-29-welcome-to-jekyll/desktop.jpg
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve --watch`, which launches a web server and auto-regenerates your site when a file is updated.
+I like to go to Meetups. What's a Meetup? Meetups are neighbors getting together to learn something, do something, or share something. In active startup communities or more urban areas Meetups are prevalent. Simply go to Meetup.com online and use your zipcode to find a Meetup in a subject that you are interested in. Ideally you will find a Meetup that is focused on your explicit business idea. Believe it or not, you are not alone in your quest for knowledge, camaraderie or validation. There are 7 billion people on the Earth, so you are bound to find someone like you.
 
 To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
 
